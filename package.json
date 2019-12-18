@@ -1,0 +1,39 @@
+{
+  "private": true,
+  "name": "Redeeem",
+  "version": "3.0.0",
+  "description": "A P2P crypto gift card exchange.",
+  "main": "gulpfile.js",
+  "author": "Redeeem LLC",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "browser-sync": "2.26.7",
+    "del": "4.1.1",
+    "gulp": "4.0.2",
+    "gulp-autoprefixer": "6.1.0",
+    "gulp-cached": "1.1.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-file-include": "^2.1.1",
+    "gulp-if": "2.0.2",
+    "gulp-npm-dist": "1.0.3",
+    "gulp-replace": "1.0.0",
+    "gulp-sass": "4.0.2",
+    "gulp-uglify": "3.0.2",
+    "gulp-useref": "^3.1.6"
+  },
+  "dependencies": {
+    "aos": "3.0.0-beta.6",
+    "bootstrap": "^4.3.1",
+    "clean-css": "^4.2.1",
+    "countup.js": "1.9.3",
+    "highlight.js": "^9.16.2",
+    "highlightjs": "9.12.0",
+    "jquery": "3.4.1",
+    "popper.js": "^1.16.0",
+    "sitemap-generator": "^8.4.2",
+    "smooth-scroll": "16.0.3",
+    "typed.js": "2.0.10"
+  }
+}

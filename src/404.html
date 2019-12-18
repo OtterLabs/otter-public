@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Head -->
+    @@include("partials/head.html",{
+      "url": "https://www.redeeem.com/404",
+      "title": "404 | Redeeem",
+      "image": "https://storage.googleapis.com/redeeem/assets/images/redeeem_gift_cards.png",
+      "description": "Oops, we can't find that page",
+      "author": "Redeeem",
+      "type": "404"
+    })
+    <!-- Navbar -->
+    @@include("partials/navbar.html")
+  </head>
+  <body>
+    <!-- 404 -->
+    @@include("partials/404.html")
+  </body>
+  <footer>
+    <!-- CTA Large -->
+    @@include("partials/chrome.html")
+    <!-- Footer -->
+    @@include("partials/footer.html")
+    <!-- GA -->
+    <script>
+      ga('send', 'pageview', '404');
+    </script>
+  </footer>
+</html>

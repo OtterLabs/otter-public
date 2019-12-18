@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Head -->
+    @@include("partials/head.html",{
+      "url": "https://www.redeeem.com/product",
+      "title": "Product | Redeeem",
+      "image": "https://storage.googleapis.com/redeeem/assets/images/redeeem_gift_cards.png",
+      "description": "Redeeem is a fast, safe and easy way to buy and sell discount gift cards using cryptocurrencies. Whether you're a hobbist or professional, our buying and selling experience is designed to be fast and intuitive.",
+      "keywords": "Redeeem,redeem,discount gift cards,Bitcoin,Bitcoin Cash,Litecoin,Ripple,Ethereum,trusted,peer-to-peer,crypto,exchange,PayPal,Dropship,Amazon,Walmart,Best Buy,iTunes,eBay,Shopify",
+      "author": "Redeeem",
+      "type": "website"
+    })
+    <!-- Navbar -->
+    @@include("partials/navbar.html")
+  </head>
+  <body class="bg-light">
+    <!-- Settings -->
+    @@include("partials/settings.html")
+    <!-- Curve -->
+    <div class="position-relative">
+      <div class="shape shape-bottom shape-fluid-x svg-shim text-white">
+        <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0V480H2880V0H2160Z" fill="#FFF"/>
+        </svg>
+      </div>
+    </div>
+    <!-- Integrations -->
+    @@include("partials/integrations.html")
+  </body>
+  <footer>
+    <!-- CTA Large -->
+    @@include("partials/chrome.html")
+    <!-- Footer -->
+    @@include("partials/footer.html")
+    <!-- GA -->
+    <script>
+      ga('send', 'pageview', 'Product');
+    </script>
+  </footer>
+</html>
