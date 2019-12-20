@@ -1,0 +1,166 @@
+<section class="py-10 bg-light">
+  <div
+    class="container">
+    <div class="card-deck mb-3 text-center">
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h3 class="my-0 font-weight-normal">
+            Junior Otter
+            <p class="f5 moon-gray ma0">
+              Backend Developer
+            </p>
+          </h3>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            $35&nbsp;<small class="text-muted f5">/ hour</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Flexible hours</li>
+            <li>15+ hours per week</li>
+            <li>Bug fixes and QA</li>
+            <li>1 project manager</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h3 class="my-0 font-weight-normal">
+            Senior Otter
+            <p class="f5 moon-gray ma0">
+              Full Stack Developer
+            </p>
+          </h3>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            $40&nbsp;<small class="text-muted f5">/ hour</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Set schedule</li>
+            <li>30+ hours per week</li>
+            <li>Heavy development</li>
+            <li>1 product manager</li>
+          </ul>
+        </div>
+      </div>
+      <div class="card mb-4 box-shadow">
+        <div class="card-header">
+          <h3 class="my-0 font-weight-normal">
+            Lead Otter
+            <p class="f5 moon-gray ma0">
+              Full Stack Developer
+            </p>
+          </h3>
+        </div>
+        <div class="card-body">
+          <h1 class="card-title pricing-card-title">
+            $45&nbsp;<small class="text-muted f5">/ hour</small>
+          </h1>
+          <ul class="list-unstyled mt-3 mb-4">
+            <li>Set schedule</li>
+            <li>40+ hours per week</li>
+            <li>Heavy development</li>
+            <li>1 product manager</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="container">
+    <p class="f4 text-muted mt-8 tc">
+      What is your monthly budget?
+    </p>
+    <div
+      class="row justify-content-center">
+      <input
+        type="text"
+        id="amount"
+        disabled
+        style="max-width:170px">
+    </div>
+    <div class="cube my-5">
+      <span class="f5 moon-gray fl pt-9">$5k</span>
+      <div id="slider-range-min"></div>
+      <span class="f5 moon-gray fr pt-9">$50k</span>
+    </div>
+    <p class="f4 mw6 text-strong mt-10 auto tc">
+      You can hire <span id="price1" class="fw7">0</span> part-time Junior <span id="otter1">Otters</span>, <span id="price2" class="fw7">0</span> full-time Senior <span id="otter2">Otters</span>, or <span id="price3" class="fw7">0</span> full-time Lead <span id="otter3">Otters</span>.
+    </p>
+    <div
+      class="row justify-content-center">
+      <button
+        type="button"
+        class="btn btn-primary auto mt-5"
+        data-toggle="modal"
+        data-target="#showModal"
+        style="width:200px">
+        Contact Us
+      </button>
+    </div>
+  </div>
+  <div class="modal fade" id="showModal" tabindex="-1" role="dialog" aria-labelledby="showModal" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <p class="f4 lh-title dark-gray">
+            To get started, please email Mike Townsend with a brief description of your project. We require $5k/month minimum budget and at least $1M raised in venture funding.
+          </p>
+          <h4 class="f3 lh-title dark-gray ma0 fw8">
+            Mike Townsend
+          </h4>
+          <p class="f6 silver ma0 ttu">
+            Busines Development
+          </p>
+          <a
+            target="_blank"
+            class="f5 lh-title db mb-5"
+            href="mailto:mike@hireotter.com">
+            mike@hireotter.com
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<script>
+  $(function() {
+    function getName(val){
+      if (val < 2) return 'Otter';
+      return 'Otters';
+    }
+    $("#slider-range-min").slider({
+      range: "min",
+      min: 5,
+      max: 50,
+      value: 20,
+      slide: function(event,picker){
+        var value = picker.value;
+        $("#amount").val("$"+value+",000");
+        $("#price1").html((value*1000/35/4/15).toFixed(0));
+        $("#price2").html((value*1000/40/4/30).toFixed(0));
+        $("#price3").html((value*1000/45/4/40).toFixed(0));
+        $("#otter1").html(getName(value*1000/35/4/15));
+        $("#otter2").html(getName(value*1000/40/4/30));
+        $("#otter3").html(getName(value*1000/45/4/40));
+        $(".a,.b,.c,.d").width(value+"%");
+      }
+    });
+    $(".ui-slider-handle").prepend('<img src="https://otter-cdn.sfo2.digitaloceanspaces.com/slider.png"/>');
+    var value = $("#slider-range-min").slider("value");
+    $("#amount").val("$"+value+",000");
+    $("#price1").html((value*1000/35/4/15).toFixed(0));
+    $("#price2").html((value*1000/40/4/30).toFixed(0));
+    $("#price3").html((value*1000/45/4/40).toFixed(0));
+    $("#otter1").html(getName(value*1000/35/4/15));
+    $("#otter2").html(getName(value*1000/40/4/30));
+    $("#otter3").html(getName(value*1000/45/4/40));
+  });
+</script>

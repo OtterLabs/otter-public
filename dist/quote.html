@@ -38,7 +38,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
-
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
      
     <link rel="stylesheet" href="./assets/css/theme.min.css">
@@ -47,6 +47,7 @@
     <!-- JS -->
     <script src="https://unpkg.com/jquery@1.9.1/jquery.min.js"></script>
     <script src="https://unpkg.com/bootstrap@4.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- AOS -->
@@ -118,11 +119,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/jobs">
-                Jobs
-              </a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/quote">
                 Quote
               </a>
@@ -133,137 +129,173 @@
     </nav>
   </head>
   <body>
-    <!-- Partners -->
-    <section
-      class="pt-10 pb-10 bg-light"
-      style="background-image: url(https://storage.googleapis.com/redeeem/assets/images/site/chrome.png);">
+    <!-- Roles -->
+    <section class="py-10 bg-light">
       <div
-        data-aos="fade-in"
         class="container">
-        <div class="row align-items-center">
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card card-border border-success shadow-lg mb-5">
-              <div class="card-body">
-                <div class="list-group list-group-flush">
-                  <div class="list-group-item d-flex align-items-center">           
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        What wallets do you recommend?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        For ease and flexibility, we recommend <a href="https://invite.abra.com/rFVslDavm0" target="_blank">Abra</a>, <a href="https://lumiwallet.com/" target="_blank">Lumi</a> or <a href="https://bitpay.com/wallet" target="_blank">BitPay</a> mobile wallets.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                  <div class="list-group-item d-flex align-items-center">
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        Where can I swap cryptocurrencies?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        To swap virtually any crypto fast, easy and anonymously, check out <a href="https://changelly.com/?ref_id=ny1rt8x4xsy5seku" target="_blank">Changelly</a> or <a href="https://shapeshift.io" target="_blank">ShapeShift</a>.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                  <div class="list-group-item d-flex align-items-center">
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        What exchanges do you recommend?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        For USA customers, the largest are <a href="https://www.coinbase.com/join/59ad1555d0190f00d106d3bd" target="_blank">Coinbase</a>, <a href="https://www.kraken.com" target="_blank">Kraken</a> or <a href="https://www.binance.us/en" target="_blank">Binance</a>. For international customers, visit <a href="https://cryptoradar.co/exchanges" target="_blank">CryptoRadar</a> and use the filters to narrow down your search.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                  <div class="list-group-item d-flex align-items-center">
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        What are other P2P exchanges?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        For peer-to-peer bank and mobile wallet transfers, we recommend <a href="https://paxful.com/?r=mPGkjL6W3d2" target="_blank">Paxful</a>, <a href="https://localbitcoins.com" target="_blank">LocalBitcoins</a> or <a href="https://bisq.network" target="_blank">Bisq</a>.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
+        <div class="card-deck mb-3 text-center">
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h3 class="my-0 font-weight-normal">
+                Junior Otter
+                <p class="f5 moon-gray ma0">
+                  Backend Developer
+                </p>
+              </h3>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $35&nbsp;<small class="text-muted f5">/ hour</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Flexible hours</li>
+                <li>15+ hours per week</li>
+                <li>Bug fixes and QA</li>
+                <li>1 project manager</li>
+              </ul>
             </div>
           </div>
-          <div class="col-12 col-md-6 col-lg-6">
-            <div class="card card-border border-success shadow-lg mb-5">
-              <div class="card-body">
-                <div class="list-group list-group-flush">
-                  <div class="list-group-item d-flex align-items-center">           
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        Where can I analyze crypto trends?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        For real-time visual data charts on the entire crypto market, visit <a href="https://coin360.com/" target="_blank">Coin360</a> or <a href="https://cryptowat.ch" target="_blank">CryptoWatch</a>.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                  <div class="list-group-item d-flex align-items-center">
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        What software does Redeeem use?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        Redeeem uses <a href="https://bcoin.io/" target="_blank">Bcoin</a>, <a href="https://www.coinpayments.net/" target="_blank">CoinPayments</a>, <a href="https://www.civic.com" target="_blank">Civic</a> and a dozen other software programs listed on our <a href="/product">Product</a> page.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                  <div class="list-group-item d-flex align-items-center">
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        What browser do you recommend?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        We recommend <a href="https://brave.com/red226" target="_blank">Brave</a>, a faster, more private and secure browser built on Basic Attention Token (BAT). To win disputes, we require the <a href="https://www.loom.com" target="_blank">Loom</a> Chrome extension.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                  <div class="list-group-item d-flex align-items-center">
-                    <div class="mr-auto">
-                      <p class="font-weight-bold mb-1">
-                        How do I convert Amazon to bitcoin?
-                      </p>
-                      <p class="font-size-sm text-muted mb-0">
-                        We recommend <a href="https://purse.io/?_r=nCWUYW" target="_blank">Purse.io</a> or <a href="https://www.ipayyou.io/" target="_blank">iPayYou.io</a> to convert Amazon credits back to bitcoin.
-                      </p>
-                    </div>
-                    <div class="badge badge-rounded-circle badge-success-soft ml-4">
-                      <i class="fe fe-check"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h3 class="my-0 font-weight-normal">
+                Senior Otter
+                <p class="f5 moon-gray ma0">
+                  Full Stack Developer
+                </p>
+              </h3>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $40&nbsp;<small class="text-muted f5">/ hour</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Set schedule</li>
+                <li>30+ hours per week</li>
+                <li>Heavy development</li>
+                <li>1 product manager</li>
+              </ul>
+            </div>
+          </div>
+          <div class="card mb-4 box-shadow">
+            <div class="card-header">
+              <h3 class="my-0 font-weight-normal">
+                Lead Otter
+                <p class="f5 moon-gray ma0">
+                  Full Stack Developer
+                </p>
+              </h3>
+            </div>
+            <div class="card-body">
+              <h1 class="card-title pricing-card-title">
+                $45&nbsp;<small class="text-muted f5">/ hour</small>
+              </h1>
+              <ul class="list-unstyled mt-3 mb-4">
+                <li>Set schedule</li>
+                <li>40+ hours per week</li>
+                <li>Heavy development</li>
+                <li>1 product manager</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="container">
+        <p class="f4 text-muted mt-8 tc">
+          What is your monthly budget?
+        </p>
+        <div
+          class="row justify-content-center">
+          <input
+            type="text"
+            id="amount"
+            disabled
+            style="max-width:170px">
+        </div>
+        <div class="cube my-5">
+          <span class="f5 moon-gray fl pt-9">$5k</span>
+          <div id="slider-range-min"></div>
+          <span class="f5 moon-gray fr pt-9">$50k</span>
+        </div>
+        <p class="f4 mw6 text-strong mt-10 auto tc">
+          You can hire <span id="price1" class="fw7">0</span> part-time Junior <span id="otter1">Otters</span>, <span id="price2" class="fw7">0</span> full-time Senior <span id="otter2">Otters</span>, or <span id="price3" class="fw7">0</span> full-time Lead <span id="otter3">Otters</span>.
+        </p>
+        <div
+          class="row justify-content-center">
+          <button
+            type="button"
+            class="btn btn-primary auto mt-5"
+            data-toggle="modal"
+            data-target="#showModal"
+            style="width:200px">
+            Contact Us
+          </button>
+        </div>
+      </div>
+      <div class="modal fade" id="showModal" tabindex="-1" role="dialog" aria-labelledby="showModal" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="modal-header">
+              <h5 class="modal-title" id="exampleModalLongTitle">Contact</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body">
+              <p class="f4 lh-title dark-gray">
+                To get started, please email Mike Townsend with a brief description of your project. We require $5k/month minimum budget and at least $1M raised in venture funding.
+              </p>
+              <h4 class="f3 lh-title dark-gray ma0 fw8">
+                Mike Townsend
+              </h4>
+              <p class="f6 silver ma0 ttu">
+                Busines Development
+              </p>
+              <a
+                target="_blank"
+                class="f5 lh-title db mb-5"
+                href="mailto:mike@hireotter.com">
+                mike@hireotter.com
+              </a>
             </div>
           </div>
         </div>
       </div>
     </section>
+    <script>
+      $(function() {
+        function getName(val){
+          if (val < 2) return 'Otter';
+          return 'Otters';
+        }
+        $("#slider-range-min").slider({
+          range: "min",
+          min: 5,
+          max: 50,
+          value: 20,
+          slide: function(event,picker){
+            var value = picker.value;
+            $("#amount").val("$"+value+",000");
+            $("#price1").html((value*1000/35/4/15).toFixed(0));
+            $("#price2").html((value*1000/40/4/30).toFixed(0));
+            $("#price3").html((value*1000/45/4/40).toFixed(0));
+            $("#otter1").html(getName(value*1000/35/4/15));
+            $("#otter2").html(getName(value*1000/40/4/30));
+            $("#otter3").html(getName(value*1000/45/4/40));
+            $(".a,.b,.c,.d").width(value+"%");
+          }
+        });
+        $(".ui-slider-handle").prepend('<img src="https://otter-cdn.sfo2.digitaloceanspaces.com/slider.png"/>');
+        var value = $("#slider-range-min").slider("value");
+        $("#amount").val("$"+value+",000");
+        $("#price1").html((value*1000/35/4/15).toFixed(0));
+        $("#price2").html((value*1000/40/4/30).toFixed(0));
+        $("#price3").html((value*1000/45/4/40).toFixed(0));
+        $("#otter1").html(getName(value*1000/35/4/15));
+        $("#otter2").html(getName(value*1000/40/4/30));
+        $("#otter3").html(getName(value*1000/45/4/40));
+      });
+    </script>
   </body>
   <footer>
     <!-- Footer -->
@@ -336,16 +368,16 @@
               </li>
               <li class="mb-1">
                 <a
-                  href="/process"
+                  href="/clients"
                   class="text-reset">
-                  Process
+                  Clients
                 </a>
               </li>
               <li class="mb-1">
                 <a
-                  href="/clients"
+                  href="/process"
                   class="text-reset">
-                  Clients
+                  Process
                 </a>
               </li>
               <li class="mb-1">
@@ -357,16 +389,16 @@
               </li>
               <li class="mb-1">
                 <a
-                  href="/media"
+                  href="/quote"
                   class="text-reset">
-                  Jobs
+                  Quote
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-6 col-md-2 col-lg-2">
             <h6 class="ttu moon-gray pv2">
-              Friends
+              Partners
             </h6>
             <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-1">

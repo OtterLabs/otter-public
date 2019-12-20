@@ -38,7 +38,7 @@
     <!-- CSS -->
     <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.11.2/css/all.css" integrity="sha384-zrnmn8R8KkWl12rAZFt4yKjxplaDaT7/EUkKm7AovijfrQItFWR7O/JJn4DAa/gx" crossorigin="anonymous">
     <link rel="stylesheet" href="https://unpkg.com/tachyons@4/css/tachyons.min.css">
-
+    <link rel="stylesheet" href="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/themes/smoothness/jquery-ui.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
      
     <link rel="stylesheet" href="./assets/css/theme.min.css">
@@ -47,6 +47,7 @@
     <!-- JS -->
     <script src="https://unpkg.com/jquery@1.9.1/jquery.min.js"></script>
     <script src="https://unpkg.com/bootstrap@4.1.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.2/jquery-ui.min.js"></script>
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
     <!-- AOS -->
@@ -118,11 +119,6 @@
               </a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/jobs">
-                Jobs
-              </a>
-            </li>
-            <li class="nav-item">
               <a class="nav-link" href="/quote">
                 Quote
               </a>
@@ -134,26 +130,30 @@
   </head>
   <body>
     <!-- About -->
-    <section class="py-8 py-md-11">
+    <section class="py-10">
       <div
         class="container">
         <div class="row justify-content-center">
           <div class="col-12 col-md-10 col-lg-7 text-center">
             <span
-              class="badge badge-pill badge-success-soft mb-3">
+              class="badge badge-pill badge-primary-soft mb-3">
               <span class="h6 text-uppercase">About Us</span>
             </span>
             <h1
+              class="mb-5"
               style="font-size:38px">
               We lower the time, cost and risk of hiring great developers.
             </h1>
+            <div class="mb-5">
+              <img src="https://otter-cdn.sfo2.digitaloceanspaces.com/man-working.jpg"
+                class="img-fluid rounded">
+              <p class="my-2 moon-gray f5">
+                Developer coworking space in Buenos Aires.
+              </p>
+            </div>
             <p
               class="font-size-lg text-muted">
-              Since entering the Los Angeles tech scene in 2011, our founders have met hundreds of senior-level developers from all around the world. In countries like Argentina, many are willing to work for as low as 30% the cost of U.S. developers. Unfortunately, we see way too many startups struggling to recruit, screen, manage and retain good developers, and end up hiring inexperienced workers or overpriced agencies. We built Otter to help bridge this gap.
-            </p>
-            <p
-              class="font-size-lg text-muted">
-              Argentina has a highly educated youth population, vibrant IT community, manageable time difference, <a href="https://www.visualcapitalist.com/the-most-miserable-countries-in-the-world/" target="_blank">favorable exchange rate</a>, and an abundance of senior developers with many years of experience as remote workers for U.S. companies.
+              Since entering the L.A. and Bay Area tech scenes in 2011, our founders have started two companies together and met hundreds of senior-level developers, especially in Argentina. Unfortunately, we also met startup friends in the U.S. who were constantly struggling to recruit, screen, manage and retain good developers, and many ended up hiring inexperienced workers or overpriced agencies. We built Otter to help solve this problem.
             </p>
           </div>
         </div>
@@ -260,16 +260,16 @@
               </li>
               <li class="mb-1">
                 <a
-                  href="/process"
+                  href="/clients"
                   class="text-reset">
-                  Process
+                  Clients
                 </a>
               </li>
               <li class="mb-1">
                 <a
-                  href="/clients"
+                  href="/process"
                   class="text-reset">
-                  Clients
+                  Process
                 </a>
               </li>
               <li class="mb-1">
@@ -281,16 +281,16 @@
               </li>
               <li class="mb-1">
                 <a
-                  href="/media"
+                  href="/quote"
                   class="text-reset">
-                  Jobs
+                  Quote
                 </a>
               </li>
             </ul>
           </div>
           <div class="col-6 col-md-2 col-lg-2">
             <h6 class="ttu moon-gray pv2">
-              Friends
+              Partners
             </h6>
             <ul class="list-unstyled text-muted mb-6 mb-md-8 mb-lg-0">
               <li class="mb-1">
