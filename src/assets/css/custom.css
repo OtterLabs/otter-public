@@ -6,11 +6,20 @@
 }
 /*Investors*/
 .investors img {
-    max-width:100px;
-    max-height:70px;
+    width:80px;
 }
 /*Investors*/
 .clients .wrapper {
     overflow: hidden;
     max-height: 300px;
+}
+/*Flex*/
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+/* to center flex-items */
+.flex-item {
+   margin: auto;
 }
