@@ -8,7 +8,6 @@
 .investors img {
   width:80px;
 }
-/*Investors*/
 .clients .wrapper {
   overflow: hidden;
   max-height: 300px;
@@ -98,7 +97,6 @@
   -ms-transform:    translateZ(-60px) translateY(-15px);
   transform:        translateZ(-60px) translateY(-15px);
 }
-/* colors */
 .a, .b {
   background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(116,198,43,0.8)), to(rgba(116,198,43,0.8)));
   background-image: -webkit-linear-gradient(top, rgba(116,198,43,0.8), rgba(116,198,43,0.8));
@@ -212,4 +210,9 @@
 }
 .auto {
   margin: 0 auto;
+}
+/*Misc*/
+.no-underline,
+.no-underline:hover{
+  text-decoration: none
 }
