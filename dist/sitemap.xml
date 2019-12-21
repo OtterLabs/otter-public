@@ -85,6 +85,9 @@
     <loc>https://www.redeeem.com/gift-cards/hotelscom</loc>
   </url>
   <url>
+    <loc>https://www.redeeem.com/partners</loc>
+  </url>
+  <url>
     <loc>https://www.redeeem.com/gift-cards/</loc>
   </url>
   <url>
@@ -95,6 +98,15 @@
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/author/kyle/</loc>
+  </url>
+  <url>
+    <loc>https://www.redeeem.com/blog/10-of-the-best-free-resources-to-learn-blockchain-and-crypto/</loc>
+  </url>
+  <url>
+    <loc>https://www.redeeem.com/blog/author/mike/</loc>
+  </url>
+  <url>
+    <loc>https://www.redeeem.com/blog/the-10-best-resources-to-learn-about-cryptocurrency/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/author/levi/</loc>
@@ -112,7 +124,7 @@
     <loc>https://www.redeeem.com/blog/top-crypto-conferences-by-country/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/author/mike/</loc>
+    <loc>https://www.redeeem.com/blog/how-to-arbitrage-using-purse-io-and-redeeem/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/how-to-turn-your-gift-cards-into-cryptocurrency/</loc>
@@ -133,7 +145,7 @@
     <loc>https://www.redeeem.com/blog/top-15-crypto-reddit-communities/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/the-10-best-resources-to-learn-about-cryptocurrency/</loc>
+    <loc>https://www.redeeem.com/blog/top-100-places-to-buy-bitcoin/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/announcing-a-new-fraud-prevention-initiative/</loc>
@@ -142,10 +154,7 @@
     <loc>https://www.redeeem.com/blog/the-current-state-of-dropshipping/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/how-to-arbitrage-using-purse-io-and-redeeem/</loc>
-  </url>
-  <url>
-    <loc>https://www.redeeem.com/partners</loc>
+    <loc>https://www.redeeem.com/blog/top-10-affiliate-programs-to-earn-bitcoin/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/master-list-of-discount-gift-card-retailers/</loc>
@@ -154,13 +163,13 @@
     <loc>https://www.redeeem.com/blog/complete-kyc-verification-instantly-with-civic-app/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/top-10-affiliate-programs-to-earn-bitcoin/</loc>
-  </url>
-  <url>
     <loc>https://www.redeeem.com/blog/why-are-gift-cards-so-heavily-discounted/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/redeeem-now-paying-1-affiliate-rewards-nightly/</loc>
+  </url>
+  <url>
+    <loc>https://www.redeeem.com/blog/redeeem-now-accepts-over-30-gift-card-brands/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/sellers-will-be-refunded-all-taken-fees-for-won-disputes/</loc>
@@ -169,13 +178,16 @@
     <loc>https://www.redeeem.com/blog/buyer-screen-recordings-improve-trust-and-safety/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/redeeem-now-accepts-over-30-gift-card-brands/</loc>
-  </url>
-  <url>
     <loc>https://www.redeeem.com/blog/top-25-youtube-channels-to-make-money-online/</loc>
   </url>
   <url>
+    <loc>https://www.redeeem.com/blog/tag/breakage/</loc>
+  </url>
+  <url>
     <loc>https://www.redeeem.com/gift-cards/sephora</loc>
+  </url>
+  <url>
+    <loc>https://www.redeeem.com/gift-cards/playstation-store</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/save-20-at-whole-foods-using-amazon-gift-cards/</loc>
@@ -184,22 +196,22 @@
     <loc>https://www.redeeem.com/blog/top-10-ways-to-earn-bitcoin-in-2020/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/gift-cards/playstation-store</loc>
+    <loc>https://www.redeeem.com/blog/tag/blockchain/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/tag/discount/</loc>
-  </url>
-  <url>
-    <loc>https://www.redeeem.com/blog/tag/breakage/</loc>
+    <loc>https://www.redeeem.com/blog/tag/cryptocurrency/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/gift-cards/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/top-100-places-to-buy-bitcoin/</loc>
+    <loc>https://www.redeeem.com/blog/tag/discount/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/conferences/</loc>
+  </url>
+  <url>
+    <loc>https://www.redeeem.com/blog/tag/purse-io/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/podcast/</loc>
@@ -214,7 +226,7 @@
     <loc>https://www.redeeem.com/blog/tag/crypto/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/tag/cryptocurrency/</loc>
+    <loc>https://www.redeeem.com/blog/tag/bitcoin/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/fraud/</loc>
@@ -223,22 +235,19 @@
     <loc>https://www.redeeem.com/blog/tag/dropship/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/tag/purse-io/</loc>
+    <loc>https://www.redeeem.com/blog/tag/affiliate/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/civic/</loc>
   </url>
   <url>
-    <loc>https://www.redeeem.com/blog/tag/affiliate/</loc>
+    <loc>https://www.redeeem.com/blog/tag/amazon/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/redeeem/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/loom/</loc>
-  </url>
-  <url>
-    <loc>https://www.redeeem.com/blog/tag/amazon/</loc>
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/youtube/</loc>
@@ -248,8 +257,5 @@
   </url>
   <url>
     <loc>https://www.redeeem.com/blog/tag/lolli/</loc>
-  </url>
-  <url>
-    <loc>https://www.redeeem.com/blog/tag/bitcoin/</loc>
   </url>
 </urlset>
