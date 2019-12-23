@@ -1,8 +1,8 @@
 <!-- Client Info -->
 <section
-  class="pt-7 pb-10 bg-light">
+  class="py-10 bg-light">
   <div class="container">
-    <h1 class="mb-2">
+    <h1 class="mb-0">
       @@client
     </h1>
     <p class="f5 fw5 silver ttu mb-6">
@@ -10,27 +10,43 @@
     </p>
     <div class="row">
       <div class="col-md-8">
-        <img class="img-fluid" src="@@image" alt="">
+        <video
+          width="100%"
+          class="mb-3"
+          poster="@@thumb"
+          controls>
+          <source
+            src="@@video"
+            type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <img class="img-fluid mb-5" src="@@image1">
+        <img class="img-fluid mb-5" src="@@image2">
+        <img class="img-fluid mb-5" src="@@image3">
+        <img class="img-fluid mb-5" src="@@image4">
+        <img class="img-fluid mb-5" src="@@image5">
       </div>
       <div class="col-md-4">
         <h3 class="mb-2">
           Description
         </h3>
-        <p class="mb-2">
+        <p
+          class="lh-title silver mb-5">
           @@description
         </p>
         <h3 class="mb-2">
           Technology
         </h3>
-        <ul>
+        <ul class="pl3 mb-5 silver">
           <li>@@technology1</li>
           <li>@@technology2</li>
           <li>@@technology3</li>
+          <li>@@technology4</li>
         </ul>
         <h3 class="mb-2">
           Launched
         </h3>
-        <ul>
+        <ul class="pl3 silver">
           <li>@@year</li>
         </ul>
       </div>
