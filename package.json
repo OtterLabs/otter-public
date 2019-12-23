@@ -2,9 +2,9 @@
   "private": true,
   "name": "Redeeem",
   "version": "3.0.0",
-  "description": "A P2P crypto gift card exchange.",
+  "description": "Hire remote developers",
   "main": "gulpfile.js",
-  "author": "Redeeem LLC",
+  "author": "Otter LLC",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },

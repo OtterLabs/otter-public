@@ -173,7 +173,7 @@ gulp.task('copy:libs', function() {
 
 // sitemap
 
-var generator = SitemapGenerator('http://www.redeeem.com', {
+var generator = SitemapGenerator('http://www.hireotter.com', {
   maxDepth: 0,
   filepath: 'dist/sitemap.xml',
   maxEntriesPerFile: 50000,
