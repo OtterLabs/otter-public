@@ -46,16 +46,16 @@
     <loc>https://hireotter.com/blog/</loc>
   </url>
   <url>
-    <loc>https://www.hireotter.com/blog/this-is-an-example/</loc>
+    <loc>https://www.hireotter.com/blog/why-did-we-start-otter/</loc>
   </url>
   <url>
-    <loc>https://www.hireotter.com/blog/author/kyle/</loc>
+    <loc>https://www.hireotter.com/blog/author/mike/</loc>
   </url>
   <url>
-    <loc>https://hireotter.com/blog/this-is-an-example/</loc>
+    <loc>https://hireotter.com/blog/why-did-we-start-otter/</loc>
   </url>
   <url>
-    <loc>https://hireotter.com/blog/author/kyle/</loc>
+    <loc>https://hireotter.com/blog/author/mike/</loc>
   </url>
   <url>
     <loc>https://hireotter.com/about</loc>
@@ -70,7 +70,13 @@
     <loc>https://hireotter.com/quote</loc>
   </url>
   <url>
+    <loc>https://www.hireotter.com/blog/tag/hiring/</loc>
+  </url>
+  <url>
     <loc>https://hireotter.com/</loc>
+  </url>
+  <url>
+    <loc>https://hireotter.com/blog/tag/hiring/</loc>
   </url>
   <url>
     <loc>https://hireotter.com/team</loc>
