@@ -251,58 +251,44 @@
         var pages = meta.pages
             var i = 0
         posts.forEach(function(item) {
-                i++; if (i > limit) return;
-                var html = ''
-                let date = new Date(item.published_at)
-                var monthy = new Array()
-                monthy[0] = 'Jan'
-                monthy[1] = 'Feb'
-                monthy[2] = 'Mar'
-                monthy[3] = 'Apr'
-                monthy[4] = 'May'
-                monthy[5] = 'Jun'
-                monthy[6] = 'Jul'
-                monthy[7] = 'Aug'
-                monthy[8] = 'Sep'
-                monthy[9] = 'Oct'
-                monthy[10] = 'Nov'
-                monthy[11] = 'Dec'
-                var month = monthy[date.getMonth()]
-                var day = date.getDay()
-                html += ' <div class="article col-12 col-md-6 col-lg-4 d-flex mb4">'
-                html += '   <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">'
-                html += '     <a'
-                html += '       class="card-img-top"'
-                html += '       href="'+item.url+'">'
-                html += '       <img src="'+item.feature_image+'" class="card-img-top">'
-                html += '       <div class="position-relative">'
-                html += '         <div class="shape shape-bottom shape-fluid-x svg-shim text-white">'
-                html += '           <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">'
-                html += '             <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0V480H2880V0H2160Z" fill="currentColor"/>'
-                html += '           </svg>'
-                html += '         </div>'
-                html += '       </div>'
-                html += '     </a>'
-                html += '     <a class="card-body" href="'+item.url+'">'
-                html += '       <h3>'+item.title+'</h3>'
-                html += '       <p class="mb-0 text-muted lh-title">'+item.excerpt+'</p>'
-                html += '       <p class="mt3 f6 moon-gray ttu">'+item.reading_time+' min read</p>'
-                html += '     </a>'
-                html += '     <a class="card-meta mt-auto" href="'+item.url+'">'
-                html += '       <hr class="card-meta-divider">'
-                html += '       <div class="avatar avatar-sm mr-2">'
-                html += '         <img src="https://storage.googleapis.com/redeeem/assets/images/icon.png" class="avatar-img rounded-circle">'
-                html += '       </div>'
-                html += '       <h6 class="text-uppercase text-muted mr-2 mb-0">'
-                html += '         '+item.authors[0].name
-                html += '       </h6>'
-                html += '       <p class="h6 text-uppercase text-muted mb-0 ml-auto">'
-                html += '         <time>'+month+' '+day+'</time>'
-                html += '       </p>'
-                html += '     </a>'
-                html += '   </div>'
-                html += ' </div>'
-            div.append(html)
+          i++; if (i > limit) return;
+          var html = ''
+          let date = new Date(item.published_at).toString()
+          date = date.split(' ')[1] + ' ' + date.split(' ')[2]
+          html += ' <div class="article col-12 col-md-6 col-lg-4 d-flex mb4">'
+          html += '   <div class="card mb-6 mb-lg-0 shadow-light-lg lift lift-lg">'
+          html += '     <a'
+          html += '       class="card-img-top"'
+          html += '       href="'+item.url+'">'
+          html += '       <img src="'+item.feature_image+'" class="card-img-top">'
+          html += '       <div class="position-relative">'
+          html += '         <div class="shape shape-bottom shape-fluid-x svg-shim text-white">'
+          html += '           <svg viewBox="0 0 2880 480" fill="none" xmlns="http://www.w3.org/2000/svg">'
+          html += '             <path fill-rule="evenodd" clip-rule="evenodd" d="M2160 0C1440 240 720 240 720 240H0V480H2880V0H2160Z" fill="currentColor"/>'
+          html += '           </svg>'
+          html += '         </div>'
+          html += '       </div>'
+          html += '     </a>'
+          html += '     <a class="card-body" href="'+item.url+'">'
+          html += '       <h3>'+item.title+'</h3>'
+          html += '       <p class="mb-0 text-muted lh-title">'+item.excerpt+'</p>'
+          html += '       <p class="mt3 f6 moon-gray ttu">'+item.reading_time+' min read</p>'
+          html += '     </a>'
+          html += '     <a class="card-meta mt-auto" href="'+item.url+'">'
+          html += '       <hr class="card-meta-divider">'
+          html += '       <div class="avatar avatar-sm mr-2">'
+          html += '         <img src="https://storage.googleapis.com/redeeem/assets/images/icon.png" class="avatar-img rounded-circle">'
+          html += '       </div>'
+          html += '       <h6 class="text-uppercase text-muted mr-2 mb-0">'
+          html += '         '+item.authors[0].name
+          html += '       </h6>'
+          html += '       <p class="h6 text-uppercase text-muted mb-0 ml-auto">'
+          html += '         <time>'+date+'</time>'
+          html += '       </p>'
+          html += '     </a>'
+          html += '   </div>'
+          html += ' </div>'
+          div.append(html)
         });
       }).catch(err => {
         console.log(err)
