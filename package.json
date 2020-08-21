@@ -9,7 +9,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
-    "browser-sync": "^2.26.10",
+    "browser-sync": "^2.26.12",
     "del": "4.1.1",
     "gulp": "^4.0.2",
     "gulp-autoprefixer": "6.1.0",
@@ -25,10 +25,10 @@
   },
   "dependencies": {
     "aos": "3.0.0-beta.6",
-    "bootstrap": "^4.3.1",
+    "bootstrap": "^4.5.2",
     "clean-css": "^4.2.1",
     "countup.js": "1.9.3",
-    "highlight.js": "^9.16.2",
+    "highlight.js": "^9.18.3",
     "highlightjs": "9.12.0",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.0",
